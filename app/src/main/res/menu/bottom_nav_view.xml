@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_main_page"
+        android:icon="@drawable/ic_book"
+        android:title="@string/main"/>
+    <item
+        android:id="@+id/item_information_page"
+        android:icon="@drawable/ic_self_improvement"
+        android:title="@string/work"/>
+
+    <item
+        android:id="@+id/placeholder"
+        android:title="" />
+
+    <item
+        android:id="@+id/item_emotion_page"
+        android:icon="@drawable/ic_chart"
+        android:title="@string/statistic"/>
+
+    <item
+        android:id="@+id/item_profile_page"
+        android:icon="@drawable/ic_face"
+        android:title="@string/profile"/>
+
+</menu>

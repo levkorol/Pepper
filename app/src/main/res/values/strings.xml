@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Pepper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main">Дневник</string>
+    <string name="profile">Профиль</string>
+    <string name="work">Упражнения</string>
+    <string name="emotion">Эмоции</string>
+    <string name="statistic_emotion">Статистика эмоций</string>
+    <string name="statistic_stress">Статистика стресса</string>
+    <string name="today_not_writing">Сегодня записей пока нет\nОпиши свое состояние сейчас</string>
+    <string name="statistic">Статистика</string>
+    <string name="diary_thanking">Дневник благодарностей</string>
+    <string name="emotions_table">Таблица чувств</string>
+    <string name="my_place">Места</string>
+    <string name="people">Люди</string>
+    <string name="change_theme">Сменить оформление</string>
+    <string name="pin_code">Пин-код на вход</string>
+    <string name="backup_copy">Резервное копирование</string>
+    <string name="notify">Уведомления</string>
+    <string name="assess">Поставьте нам оценку</string>
+    <string name="mail_dev">Связаться с разработчиком</string>
+    <string name="event">Событие</string>
+    <string name="feeling_in_body">Ощущения в теле</string>
+</resources>

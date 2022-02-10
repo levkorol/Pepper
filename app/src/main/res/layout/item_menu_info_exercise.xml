@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/emo1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_pick_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_marginTop="16dp"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/item_name_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:text="@string/diary_thanking"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/item_count_writing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:textColor="@color/white"
+                android:text="0 записей"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp"
+                app:fontFamily="@font/roboto_light"
+                android:layout_marginBottom="16dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
